@@ -36,7 +36,7 @@
             $this->addElement('text',     'last_name',       'Фамилия',          array('class'=>'edt_100'));
             $this->addElement('text',     'first_name',      'Имя',              array('class'=>'edt_100'));
             $this->addElement('text',     'patr_name',       'Отчество',         array('class'=>'edt_100'));
-            $this->addElement('select',   'is_male',         'Пол', array(0=>'-Не указан-', 1=>'Мужской',2=>'Женский'));
+            /*$this->addElement('select',   'is_male',         'Пол', array(0=>'-Не указан-', 1=>'Мужской',2=>'Женский'));
             $this->addElement('dateex',   'born_date',       'Дата рождения',    array('language' => 'ru', 'format'=>'dMY', 'minYear'=>1900, 'maxYear'=>gMaxYear, 'addEmptyOption'=>true));
 
             $this->addElement('select',   'doc_type_id',     'Документ', $vDB->GetRBList('rb_doc_types','id', 'name', true));
@@ -59,10 +59,10 @@
             $this->addElement('select',   'insurance_company_id','Полис: СМО',       $vDB->GetRBList('rb_insurance_companies','id', 'long_name', true));
             $this->addElement('text',     'polis_series',        'серия',            array('class'=>'edt_tiny'));
             $this->addElement('text',     'polis_number',        'номер',            array('class'=>'edt_100'));
-            $this->addElement('select',   'paytype',             'тип',              array(0=>'ОМС', 1=>'ДМС', 2=>'Платные услуги'));
+            $this->addElement('select',   'paytype',             'тип',              array(0=>'ОМС', 1=>'ДМС', 2=>'Платные услуги'));*/
 
      /*Дата действия полиса*/
-            $this->addElement('dateex',   'patient_polis_from',  'Действителен с',   array('language' => 'ru', 'format'=>'dMY', 'minYear'=>1900, 'maxYear'=>gMaxYear,'addEmptyOption'=>true));
+            /*$this->addElement('dateex',   'patient_polis_from',  'Действителен с',   array('language' => 'ru', 'format'=>'dMY', 'minYear'=>1900, 'maxYear'=>gMaxYear,'addEmptyOption'=>true));
             $this->addElement('dateex',   'patient_polis_to',    'по',               array('language' => 'ru', 'format'=>'dMY', 'minYear'=>1900, 'maxYear'=>gMaxYear,'addEmptyOption'=>true));
 
             $this->addElement('header',   'header2',             'Дополнительные сведения');
@@ -78,8 +78,8 @@
             $this->addElement('text',     'message_number',      'Номер телефонограммы',   array('class'=>'edt_100'));
             $this->addElement('textarea', 'notes',               'Дополнительные сведения', array('rows' => 6, 'cols' => 44));
 
-            $this->addElement('submit',   'Submit',              'Ok');
-            $this->applyFilter('_ALL_',   'trim');
+            $this->addElement('submit',   'Submit',              'Ok');*/
+            //$this->applyFilter('_ALL_',   'trim');
 
             $this->addRule('last_name',  'Это поле обязательно для заполнения', 'required');
             $this->addRule('first_name', 'Это поле обязательно для заполнения', 'required');
@@ -112,7 +112,7 @@
             CopyRecordStrValue( $vRecord, $vValues, 'last_name');
             CopyRecordStrValue( $vRecord, $vValues, 'first_name');
             CopyRecordStrValue( $vRecord, $vValues, 'patr_name');
-            CopyRecordBoolValue($vRecord, $vValues, 'is_male');
+            /*CopyRecordBoolValue($vRecord, $vValues, 'is_male');
             CopyRecordDateValue($vRecord, $vValues, 'born_date');
             CopyRecordRefValue( $vRecord, $vValues, 'doc_type_id');
             CopyRecordStrValue( $vRecord, $vValues, 'doc_series');
@@ -147,7 +147,7 @@
             CopyRecordBoolValue($vRecord, $vValues, 'ice_trauma');
             CopyRecordBoolValue($vRecord, $vValues, 'animal_bite_trauma');
             CopyRecordBoolValue($vRecord, $vValues, 'ixodes_trauma');
-            CopyRecordStrValue($vRecord,  $vValues, 'message_number');
+            CopyRecordStrValue($vRecord,  $vValues, 'message_number');*/
           /* Здесь нужна проверка введенных данных в поле ПОЛИС СМО*/
             $vResult = $vDB->InsertOrUpdateById('emst_cases', $vRecord);
 

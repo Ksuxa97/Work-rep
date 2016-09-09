@@ -105,66 +105,66 @@
               <tr><td class="label"> <?php echo $t->form->last_name->label;?>       </td><td class="control" colspan="7"> <?php echo $t->form->last_name->html;?>       </td></tr>
               <tr><td class="label"> <?php echo $t->form->first_name->label;?>      </td><td class="control" colspan="7"> <?php echo $t->form->first_name->html;?>      </td></tr>
               <tr><td class="label"> <?php echo $t->form->patr_name->label;?>       </td><td class="control" colspan="7"> <?php echo $t->form->patr_name->html;?>       </td></tr>
-              <tr><td class="label"> <?php echo $t->form->is_male->label;?>         </td><td class="control" colspan="7"> <?php echo $t->form->is_male->html;?>         </td></tr>
-              <tr><td class="label"> <?php echo $t->form->born_date->label;?>       </td><td class="control" colspan="7"> <?php echo $t->form->born_date->html;?>       </td></tr>
+             <!-- <tr><td class="label"> {form.is_male.label:h}         </td><td class="control" colspan="7"> {form.is_male.html:h}         </td></tr>
+              <tr><td class="label"> {form.born_date.label:h}       </td><td class="control" colspan="7"> {form.born_date.html:h}       </td></tr>
 
               <tr>
-                <td class="label"> <?php echo $t->form->doc_type_id->label;?> </td>
-                <td class="control"> <?php echo $t->form->doc_type_id->html;?>  </td>
-                <td class="label"> <?php echo $t->form->doc_series->label;?>  </td>
-                <td class="control"> <?php echo $t->form->doc_series->html;?>   </td>
-                <td class="label"> <?php echo $t->form->doc_number->label;?>  </td>
-                <td class="control" colspan="3"> <?php echo $t->form->doc_number->html;?>   </td>
+                <td class="label"  > {form.doc_type_id.label:h} </td>
+                <td class="control"> {form.doc_type_id.html:h}  </td>
+                <td class="label"  > {form.doc_series.label:h}  </td>
+                <td class="control"> {form.doc_series.html:h}   </td>
+                <td class="label"  > {form.doc_number.label:h}  </td>
+                <td class="control" colspan="3"> {form.doc_number.html:h}   </td>
               </tr>
 
               <tr>
-                <td class="label"> <?php echo $t->form->addr_reg_street->label;?>    </td>
-                <td class="control"> <?php echo $t->form->addr_reg_street->html;?>     </td>
-                <td class="label"> <?php echo $t->form->addr_reg_num->label;?>       </td>
-                <td class="control"> <?php echo $t->form->addr_reg_num->html;?>        </td>
-                <td class="label"> <?php echo $t->form->addr_reg_subnum->label;?>    </td>
-                <td class="control"> <?php echo $t->form->addr_reg_subnum->html;?>     </td>
-                <td class="label"> <?php echo $t->form->addr_reg_apartment->label;?> </td>
-                <td class="control"> <?php echo $t->form->addr_reg_apartment->html;?>  </td>
+                <td class="label"  > {form.addr_reg_street.label:h}    </td>
+                <td class="control"> {form.addr_reg_street.html:h}     </td>
+                <td class="label"  > {form.addr_reg_num.label:h}       </td>
+                <td class="control"> {form.addr_reg_num.html:h}        </td>
+                <td class="label"  > {form.addr_reg_subnum.label:h}    </td>
+                <td class="control"> {form.addr_reg_subnum.html:h}     </td>
+                <td class="label"  > {form.addr_reg_apartment.label:h} </td>
+                <td class="control"> {form.addr_reg_apartment.html:h}  </td>
               </tr>
 
               <tr>
-                <td class="label"> <?php echo $t->form->addr_phys_street->label;?>    </td>
-                <td class="control"> <?php echo $t->form->addr_phys_street->html;?>     </td>
-                <td class="label"> <?php echo $t->form->addr_phys_num->label;?>       </td>
-                <td class="control"> <?php echo $t->form->addr_phys_num->html;?>        </td>
-                <td class="label"> <?php echo $t->form->addr_phys_subnum->label;?>    </td>
-                <td class="control"> <?php echo $t->form->addr_phys_subnum->html;?>     </td>
-                <td class="label"> <?php echo $t->form->addr_phys_apartment->label;?> </td>
-                <td class="control"> <?php echo $t->form->addr_phys_apartment->html;?>  </td>
+                <td class="label"  > {form.addr_phys_street.label:h}    </td>
+                <td class="control"> {form.addr_phys_street.html:h}     </td>
+                <td class="label"  > {form.addr_phys_num.label:h}       </td>
+                <td class="control"> {form.addr_phys_num.html:h}        </td>
+                <td class="label"  > {form.addr_phys_subnum.label:h}    </td>
+                <td class="control"> {form.addr_phys_subnum.html:h}     </td>
+                <td class="label"  > {form.addr_phys_apartment.label:h} </td>
+                <td class="control"> {form.addr_phys_apartment.html:h}  </td>
               </tr>
 
-              <tr><td class="label"> <?php echo $t->form->phone->label;?>           </td><td class="control" colspan="7"> <?php echo $t->form->phone->html;?>           </td></tr>
-              <tr><td class="label"> <?php echo $t->form->employment_category_id->label;?></td><td class="control" colspan="7"> <?php echo $t->form->employment_category_id->html;?></td></tr>
-              <tr><td class="label"> <?php echo $t->form->employment_place->label;?></td><td class="control" colspan="7"> <?php echo $t->form->employment_place->html;?></td></tr>
-              <tr><td class="label"> <?php echo $t->form->profession->label;?>      </td><td class="control" colspan="7"> <?php echo $t->form->profession->html;?>      </td></tr>
+              <tr><td class="label"  > {form.phone.label:h}           </td><td class="control" colspan="7"> {form.phone.html:h}           </td></tr>
+              <tr><td class="label"  > {form.employment_category_id.label:h}</td><td class="control" colspan="7"> {form.employment_category_id.html:h}</td></tr>
+              <tr><td class="label"  > {form.employment_place.label:h}</td><td class="control" colspan="7"> {form.employment_place.html:h}</td></tr>
+              <tr><td class="label"  > {form.profession.label:h}      </td><td class="control" colspan="7"> {form.profession.html:h}      </td></tr>
               <tr>
-                  <td class="label"> <?php echo $t->form->paytype->label;?></td>
-                  <td class="control"> <?php echo $t->form->paytype->html;?></td>
-              </tr>
-                <tr>
+                  <td class="label"  > {form.paytype.label:h}</td>
+                  <td class="control"> {form.paytype.html:h}</td>
+              </tr>-->
+                <!--<tr>
                     <td class="label">&nbsp;</td>
                     <td class="control" colspan="6">
-                        <?php echo $this->elements['search_client']->toHtml();?>
+                        <input type="button" name="search_client" value="Найти пациента" onclick="search_patients();">
                     </td>
-                </tr>
-              <tr>
-                  <td class="label"> <?php echo $t->form->insurance_company_id->label;?></td>
-                  <td class="control"> <?php echo $t->form->insurance_company_id->html;?></td>
-                  <td class="label"> <?php echo $t->form->polis_series->label;?></td>
-                  <td class="control"> <?php echo $t->form->polis_series->html;?></td>
-                  <td class="label"> <?php echo $t->form->polis_number->label;?></td>
-                  <td class="control"> <?php echo $t->form->polis_number->html;?></td>
-              </tr>
-                <tr>
-                    <tr><td class="label"><?php echo $t->form->patient_polis_from->label;?></td><td class="control" colspan="4"> <?php echo $t->form->patient_polis_from->html;?></td></tr>
-                    <tr><td class="label"><?php echo $t->form->patient_polis_to->label;?></td><td class="control" colspan="2"> <?php echo $t->form->patient_polis_to->html;?></td></tr>
-                    <tr><td class="control" colspan="8"> <?php echo $this->elements['search_by_tfoms']->toHtml();?></td></tr>
+                </tr>-->
+             <!-- <tr>
+                  <td class="label"  > {form.insurance_company_id.label:h}</td>
+                  <td class="control"> {form.insurance_company_id.html:h}</td>
+                  <td class="label"  > {form.polis_series.label:h}</td>
+                  <td class="control"> {form.polis_series.html:h}</td>
+                  <td class="label"  > {form.polis_number.label:h}</td>
+                  <td class="control"> {form.polis_number.html:h}</td>
+              </tr>-->
+                <!--<tr>
+                    <tr><td class="label">{form.patient_polis_from.label:h}</td><td class="control" colspan="4"> {form.patient_polis_from.html:h}</td></tr>
+                    <tr><td class="label">{form.patient_polis_to.label:h}</td><td class="control" colspan="2"> {form.patient_polis_to.html:h}</td></tr>
+                    <tr><td class="control" colspan="8" > <input type="button" name="search_by_tfoms" value="Проверить полис в ТФОМС" onclick="check_by_tfoms();"></td></tr>
                 </tr>
               <tr>
 
@@ -176,34 +176,34 @@
                       </fieldset>
                    </div>
                   </td>
-              </tr>
-              <tr><th colspan="8"><?php echo $t->form->header->header2;?></th></tr>
-              <tr><td class="label"> <?php echo $t->form->trauma_type_id->label;?></td><td class="control" colspan="7"> <?php echo $t->form->trauma_type_id->html;?></td></tr>
-              <tr><td class="label"> <?php echo $t->form->accident->label;?>              </td><td class="control" colspan="7"> <?php echo $t->form->accident->html;?>              </td></tr>
-              <tr><td class="label"> <?php echo $t->form->accident_datetime->label;?>     </td><td class="control" colspan="7"> <?php echo $t->form->accident_datetime->html;?>     </td></tr>
-              <tr><td class="label"> <?php echo $t->form->accident_place->label;?>        </td><td class="control" colspan="7"><?php echo $t->form->accident_place->html;?>        </td></tr>
+              </tr>-->
+              <!--<tr><th colspan="8">{form.header.header2:h}</th></tr>
+              <tr><td class="label"> {form.trauma_type_id.label:h}</td><td class="control" colspan="7"> {form.trauma_type_id.html:h}</td></tr>
+              <tr><td class="label"> {form.accident.label:h}              </td><td class="control" colspan="7"> {form.accident.html:h}              </td></tr>
+              <tr><td class="label"> {form.accident_datetime.label:h}     </td><td class="control" colspan="7"> {form.accident_datetime.html:h}     </td></tr>
+              <tr><td class="label"> {form.accident_place.label:h}        </td><td class="control" colspan="7" >{form.accident_place.html:h}        </td></tr>
 
               <tr>
-                <td class="label">   <?php echo $t->form->phone_message_required->label;?></td>
-                <td class="control"> <?php echo $t->form->phone_message_required->html;?> </td>
-                <td class="label">   <?php echo $t->form->animal_bite_trauma->label;?>    </td>
-                <td class="control" colspan="5"> <?php echo $t->form->animal_bite_trauma->html;?>     </td>
+                <td class="label">   {form.phone_message_required.label:h}</td>
+                <td class="control"> {form.phone_message_required.html:h} </td>
+                <td class="label">   {form.animal_bite_trauma.label:h}    </td>
+                <td class="control" colspan="5"> {form.animal_bite_trauma.html:h}     </td>
               </tr>
               <tr>
-                <td class="label">   <?php echo $t->form->ice_trauma->label;?>    </td>
-                <td class="control"> <?php echo $t->form->ice_trauma->html;?>     </td>
-                <td class="label">   <?php echo $t->form->ixodes_trauma->label;?> </td>
-                <td class="control" colspan="5"> <?php echo $t->form->ixodes_trauma->html;?>  </td>
+                <td class="label">   {form.ice_trauma.label:h}    </td>
+                <td class="control"> {form.ice_trauma.html:h}     </td>
+                <td class="label">   {form.ixodes_trauma.label:h} </td>
+                <td class="control" colspan="5"> {form.ixodes_trauma.html:h}  </td>
               </tr>
-              <tr><td class="label"> <?php echo $t->form->ses_message_required->label;?>  </td><td class="control" colspan="7"> <?php echo $t->form->ses_message_required->html;?>  </td></tr>
-              <tr><td class="label"> <?php echo $t->form->message_number->label;?>        </td><td class="control" colspan="7"> <?php echo $t->form->message_number->html;?>        </td></tr>
-              <tr><td class="label"> <?php echo $t->form->notes->label;?></td><td class="control" colspan="7"> <?php echo $t->form->notes->html;?></td></tr>
-              <tr><td align="right" colspan="8">   <?php echo $t->form->Submit->html;?>          </td>
-              </tr>
+              <tr><td class="label"> {form.ses_message_required.label:h}  </td><td class="control" colspan="7"> {form.ses_message_required.html:h}  </td></tr>
+              <tr><td class="label"> {form.message_number.label:h}        </td><td class="control" colspan="7"> {form.message_number.html:h}        </td></tr>
+              <tr><td class="label"  > {form.notes.label:h}</td><td class="control" colspan="7"> {form.notes.html:h}</td></tr>
+              <tr><td align="right"  colspan="8">   {form.Submit.html:h}          </td>
+              </tr>-->
             </table>
-            <table>
-              <tr><td><?php echo $t->form->requirednote;?></td></tr>
-            </table>
+            <!--<table>
+              <tr><td>{form.requirednote:h}</td></tr>
+            </table>-->
           </form>
         </td>
       </tr>
